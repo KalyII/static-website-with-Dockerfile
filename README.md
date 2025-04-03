@@ -6,6 +6,7 @@ This project demonstrates how to containerize and deploy a static website using 
 - Docker
 - Nginx
 - Ubuntu 18.04
+- Template HTML5 : [Dimension](https://html5up.net/dimension)
 
 ## 📁 Project Structure
 
@@ -21,8 +22,8 @@ cd webapp
 2. Build the Docker image: docker build -t webapp:v1 .
 
 3. Run the container: docker run --name webapp -d -p 80:80 webapp:v1
-4. Clean Up:
+4.use the Port 80 to test the webapp
+5. Clean Up:
 docker rm -f webapp
 docker rmi webapp:v1
-
 

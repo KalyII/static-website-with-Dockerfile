@@ -24,3 +24,6 @@ cd webapp
 4. Clean Up:
 docker rm -f webapp
 docker rmi webapp:v1
+
+Image of the webapp:
+![image](https://github.com/user-attachments/assets/13a7a45b-e39e-46e0-b89e-bdc500e21ee4)
